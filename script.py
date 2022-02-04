@@ -35,5 +35,8 @@ def build_tsp_graph(directed):
   g.add_edge(vertices[3], vertices[2], 1)
   return g
 
-# Define your functions below:
-
+def visited_all_nodes(visited_vertices): #checks whether all nodes have been visited
+  for vertex in visited_vertices:
+    if visited_vertices[vetex] == "unvisited":
+      return False
+  return True
